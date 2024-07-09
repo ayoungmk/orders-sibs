@@ -29,18 +29,7 @@ This is an order management system developed in Java using the Spring Boot frame
    cd orders-sibs
    ```
 
-2. **Configure the database:**
-   Create a database in PostgreSQL and configure the `application.properties` or `application.yml` file with the database connection information.
-
-   ```properties
-   spring.datasource.url=jdbc:mysql://localhost:3306/order_management
-   spring.datasource.username=your_username
-   spring.datasource.password=your_password
-   spring.jpa.hibernate.ddl-auto=update
-   ```
-   The application will be available at `http://localhost:8080`.
-
-   2.1 **Data.sql**
+2. **Data.sql**
       The project contains a Data.sql file that initially populates some information in the system's entities.
 
 3. **Docker:**
